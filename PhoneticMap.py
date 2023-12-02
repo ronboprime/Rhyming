@@ -74,12 +74,12 @@ class phonometer:
                words_with_query.append(word)
        return random.sample(words_with_query,5)
 
-P=phonometer(True)
+#P=phonometer(True)
 
-phones = P.phonemes_in_words()
+#phones = P.phonemes_in_words()
 
-query = 'ae2'
+#query = 'ae2'
 
-words_with_query = P.find_words_with_query(phones, query)
+#words_with_query = P.find_words_with_query(phones, query)
 
-print(words_with_query)
+#print(words_with_query)
